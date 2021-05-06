@@ -55,7 +55,7 @@ class GildedRose(object):
                     pass
                 #If the sell_in is <=0, make the quality as 0
                 if item.name == "Backstage passes to a TAFKAL80ETC concert" and item.sell_in<=0:
-                        # print("here")
+                        # Handling a minor bug
                         item.quality = -1
             
             #Handle the Sulfuras, Hand of Ragnaros item
